@@ -1,0 +1,7 @@
+clouds = berawan
+clouds-lightning = berawan disertai petir
+lightning-rain = badai atau hujan disertai petir
+rain = hujan
+sun = cerah
+sun-clouds = cerah berawan
+sun-clouds-rain = berawan dan hujan curah lokal

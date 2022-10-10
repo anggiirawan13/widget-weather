@@ -1,0 +1,42 @@
+.calendar{
+    position: relative;
+    width: 200px;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.calendar #month{
+    position: relative;
+    padding: 5px 10px;
+    background: #ff6331;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+*(
+    margin:0
+)
+.calendar #day{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #999;
+}
+
+.calendar #tanggal{
+    margin-top: 0px;
+    line-height:  1em;
+    font-size: 80px;
+    font-weight: 700px;
+    color: #333;
+}
+
+.calendar #year{
+    margin-bottom: 20 px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #999;
+}
