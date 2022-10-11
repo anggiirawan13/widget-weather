@@ -13,9 +13,13 @@ function startTime(GmtOffset) {
     // m = checkTime(m);
     // s = checkTime(s);
 
-if (h < 10) {
-    h = '0' + h;
-}
+    if (h > 24) {
+        h -= 24
+    }
+
+    if (h < 10) {
+        h = '0' + h;
+    }
 
     document.getElementById('clock').innerHTML = h + ":" + m;
     // setTimeout(startTime, 1000);
